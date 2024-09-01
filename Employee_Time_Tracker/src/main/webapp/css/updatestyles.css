@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(16, 13, 37);
+    border: 1px solid #262533;
+}
+
+h2 {
+    color: rgb(168,164,157);
+    margin-top:20px;
+}
+
+form {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 15px;
+    color:#ffff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group textarea {
+    border-radius: 5px !important;
+    font-size: 13px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background-color: rgb(16, 13, 37);
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.btn{
+	 background: rgb(21,16,48);
+    color:#ffff;
+    font-weight:900;
+    width:100px;
+    font-size:12px;
+    border:1px solid #262533;
+}
+.btn:hover {
+    background: rgb(98,46,189);
+}

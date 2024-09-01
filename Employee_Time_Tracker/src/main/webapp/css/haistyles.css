@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    box-shadow: 10px 10px 10px rgb(5,8,22) ;
+    background: #262533;
+    border:1px solid #262533;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.left-section {
+	box-shadow: 10px 10px 10px rgb(5,8,22) ;
+    flex: 1;
+    background: rgb(16,13,37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section .planet img {
+    width: 280px;
+    height: 280px;
+    border-radius:10px;
+    
+}
+
+.left-section .title {
+    font-size: 26px;
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.right-section {
+	box-shadow: 10px 10px 10px rgb(5,8,22) ;
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(16,13,37);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group, .form-group {
+    margin-bottom: 20px;
+}
+
+.input-group label, .form-group label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input, .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #3e3d4d;
+    color: white;
+    font-size: 16px;
+}
+
+.buttons .btn {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buttons .sign-in {
+    background: rgb(21,16,48);
+    color:#ffff;
+    font-weight:900;
+    font-size:12px;
+    border:1px solid #262533;
+}
+
+.buttons .sign-up {
+    background: rgb(21,16,48);
+    color:#ffff;
+    font-weight:900;
+    font-size:12px;
+    border:1px solid #262533;
+}
+
+.buttons .btn:hover {
+    background: rgb(98,46,189);
+}
+
+.text-center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-center a {
+    color: #ff7052;
+    text-decoration: none;
+}

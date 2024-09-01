@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url('herobg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #ffff;
+}
+
+h4 {
+    margin-bottom: 20px;
+    color:#0000;
+}
+
+.chart-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(16,13,37);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 300px; /* Adjust this value to make the container shorter or taller */
+    overflow: hidden; /* Hide any content that overflows the container */
+}
+
+#taskChart {
+    height: 100%; /* Ensure the chart takes the full height of the container */
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .chart-container {
+        padding: 10px;
+    }
+}
